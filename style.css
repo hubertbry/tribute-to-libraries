@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background: url(https://hubertbrychczynski.com/wp-content/uploads/2020/05/wrinkled-paper-texture_1100-12.jpg);
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#main {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h1, .text-center {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#image {
+  max-width: 400px;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  #main {
+    margin: 0 auto;
+    width: 90%;
+    padding: 5%;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+  }
+}
